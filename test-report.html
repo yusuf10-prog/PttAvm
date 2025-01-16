@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test Execution Report</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px;
+            border-radius: 4px;
+            margin-bottom: 20px;
+        }
+        .scenario {
+            margin-bottom: 20px;
+        }
+        .step {
+            margin: 10px 0;
+            padding: 10px;
+            border-left: 4px solid #4CAF50;
+            background-color: #f9f9f9;
+        }
+        .passed {
+            color: #4CAF50;
+        }
+        .failed {
+            color: #f44336;
+        }
+        .timestamp {
+            color: #666;
+            font-size: 0.9em;
+        }
+        .duration {
+            float: right;
+            color: #666;
+        }
+        .timeline {
+            margin: 20px 0;
+            padding: 10px;
+            background-color: #e8f5e9;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>Test Execution Report</h2>
+        </div>
+        
+        <div class="scenario">
+            <h3>Scenario: Verify social media icons are present and clickable</h3>
+            <p>UUID: 2e34702c-b720-41a0-96dc-f8e91d4f88f2</p>
+            
+            <div class="timeline">
+                <h4>Timeline</h4>
+                <p>Start Time: 2025-01-16 20:44:59</p>
+                <p>End Time: 2025-01-16 20:45:23</p>
+                <p>Total Duration: 24.009 seconds</p>
+            </div>
+
+            <div class="step">
+                <h4>Before Hook</h4>
+                <p class="passed">✓ Setup completed successfully</p>
+                <span class="timestamp">Start: 20:44:59</span>
+                <span class="duration">Duration: 6.555 seconds</span>
+            </div>
+
+            <div class="step">
+                <h4>Test Execution</h4>
+                <p class="passed">✓ All test steps completed successfully</p>
+                <span class="timestamp">Start: 20:44:59</span>
+                <span class="duration">Duration: 14.615 seconds</span>
+            </div>
+
+            <div class="step">
+                <h4>After Hook</h4>
+                <p class="passed">✓ Teardown completed successfully</p>
+                <span class="timestamp">Start: 20:45:20</span>
+                <span class="duration">Duration: 2.819 seconds</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
