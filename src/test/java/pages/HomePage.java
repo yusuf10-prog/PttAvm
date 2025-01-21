@@ -84,6 +84,7 @@ public class HomePage {
         return driver.getCurrentUrl().toLowerCase().contains(categoryName.toLowerCase());
     }
 
+
     public void navigateToHomepage() {
         driver.get("https://www.pttavm.com/");
     }
